@@ -1,0 +1,174 @@
+body {
+    @media  screen and   (max-width:767px) {
+        /* INFORMAÇÕES GERAIS */
+        margin: auto;
+
+
+        /* FIM DAS INFO GERAIS */
+        /* NAV BAR */
+        ul li.item-menu a {
+            margin-left: 10px;
+        }
+
+        /* FIM DA NAV BAR */
+        img {
+            width: 150px;
+
+        }
+
+        .txt-topo,
+        .img-topo {
+            flex-direction: column;
+            display: block;
+            margin-left: 25%;
+        }
+
+        /* ABA ORGÃOS */
+        .interface1 h2 {
+            padding-left: 40px;
+            padding-right: 40px;
+            width: 100px;
+        }
+
+        .orgaos {
+            width: 220px;
+            height: 310px;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+.orgaos p{
+    font-size: 13px;
+}
+        /* ABA LEIS */
+        .txt-projetos,
+        .projetos-container {
+            display: block;
+            margin-left: 100px;
+            
+        }
+
+        .txt-projetos {
+            margin-bottom: 40px;
+            position: static;
+        }
+
+        .txt-projetos h2 {
+            font-size: 3.2rem;
+        }
+
+        .txt-projetos button {
+            width: 200;
+           
+        }
+.projetos-box{
+    width: 220px;
+    height: 240;
+}
+.projetos-box p{
+    font-size: 12px;
+}
+.projetos-box h1{
+    font-size: 15px;
+}
+        /* MAPA */
+.mapa h1{
+    margin-left: 50%;
+    font-size: 21px;
+    width: 35%;
+
+}
+#map{
+    width: 250px;
+    height: 580px;
+    margin-left: 35%;
+}
+
+.mapa{
+    width: 250px;
+}
+        /* FOOTER */
+
+    }
+}
+
+/* TABLET */
+body{
+    @media screen and (min-width: 727px) and (max-width:1023px) {
+        img{
+            width: 350px;
+        }
+
+        .interface1 h2 {
+            padding-left: 40px;
+            padding-right: 40px;
+            width: 400px;
+
+        }
+
+        .orgaos {
+            width: 320px;
+            height: 310px;
+            margin-left: 140px;
+            margin-top: 20px;
+        }
+.orgaos p{
+    font-size: 15px;
+}
+       
+ /* ABA LEIS */
+ .txt-projetos,
+ .projetos-container {
+     display: block;
+     margin-left: 250px;
+     
+ }
+
+ .txt-projetos {
+     margin-bottom: 40px;
+     position: static;
+ }
+
+ .txt-projetos h2 {
+     font-size: 3.2rem;
+ }
+
+ .txt-projetos button {
+     width: 200;
+    
+ }
+.projetos-box{
+width: 420px;
+height: 240;
+}
+.projetos-box p{
+font-size: 16px;
+}
+.projetos-box h1{
+font-size: 25px;
+}
+
+
+        /* MAPA */
+        .mapa h1{
+            padding-left: 150px;
+            margin-left: 50%;
+            font-size: 28px;
+        
+            
+        
+        }
+        #map{
+            width: 650px;
+            height: 520px;
+            margin-left: 35%;
+        }
+        
+        .mapa{
+            width: 250px;
+        }
+                /* FOOTER */
+        
+            
+        
+    }
+}
